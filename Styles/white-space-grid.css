@@ -1,0 +1,36 @@
+.white-space-grid{
+    background-color: #ffffff;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.white-grid-text{
+    background-color: #ffffff;
+    width: 520px;
+}
+.white-grid-video{
+    width: 670px;
+    background-color: #a5cad5;
+    border-radius: 20px;
+    height: 650px;
+    margin-bottom: 40px;
+
+}
+.white-grid-text .heading-main{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 42px;
+    text-align: left;
+    align-items: top;
+}
+.white-grid-text .text-main{
+    text-align: left;
+    align-items: top;
+}
+.chat-video{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}

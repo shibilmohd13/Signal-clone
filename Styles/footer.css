@@ -1,0 +1,25 @@
+footer{
+    height: 170px;
+    background-color: #3C3744;
+    color: #ffffff;
+    line-height: 22px;
+    padding: 60px 50px;
+    padding-right: 100px;
+    font-size: medium;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.span-head{
+    font-weight: 800;
+}
+.others p{
+    line-height: 5px;
+}
+.others p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

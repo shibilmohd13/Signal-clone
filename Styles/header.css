@@ -1,0 +1,60 @@
+header{
+    background-color: #ffffff;
+    height: 85px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+}
+.header-left-section{
+    background-color: #ffffff;
+    flex:10;
+    margin-left: 76px;
+    margin-top: 17px;
+
+}
+.signal-logo{
+    height: 50px;
+}
+.header-right-section{
+    background-color: #ffffff;
+    justify-content: space-between;
+    height: 100%;
+    flex: 9;
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+}
+
+.header-elements{
+    background-color: #ffffff;
+    flex: 1;
+    display: flex;
+    font-family: 'Inter',sans-serif;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-elements:hover{
+    color: #0000ff;
+    background-color: #ffffff;
+    flex: 1;
+    display: flex;
+    font-family: 'Inter',sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-icon{
+    height: 20px;
+    margin-right: 10px;
+}
+.globe-icon{
+    height: 15px;
+    margin-right: 3px;
+}
